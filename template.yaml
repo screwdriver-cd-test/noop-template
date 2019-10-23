@@ -1,0 +1,8 @@
+name: sd/noop
+version: '1.0.0'
+description: SDv4 template that does nothing
+maintainer: jithin1987@gmail.com
+config:
+  image: screwdrivercd/noop-container
+  steps:
+    - noop: "true"
