@@ -5,4 +5,4 @@ maintainer: jithin1987@gmail.com
 config:
   image: screwdrivercd/noop-container
   steps:
-    - nop: "true"
+    - noop: "true"
