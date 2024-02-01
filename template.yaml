@@ -4,5 +4,7 @@ description: SDv4 template that does nothing
 maintainer: jithin1987@gmail.com
 config:
   image: screwdrivercd/noop-container
+  annotations:
+    screwdriver.cd/buildPeriodically: 'H 0 * * *'
   steps:
     - noop: "true"
