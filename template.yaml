@@ -6,6 +6,7 @@ config:
   image: screwdrivercd/noop-container
   annotations:
     screwdriver.cd/buildPeriodically: 'H 0 * * *'
+    screwdriver.cd/displayName: 'sd-noop-job'
   requires: [~commit]
   steps:
     - noop: "true"
