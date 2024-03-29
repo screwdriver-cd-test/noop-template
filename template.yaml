@@ -4,5 +4,6 @@ description: SDv4 template that does nothing
 maintainer: jithin1987@gmail.com
 config:
   image: screwdrivercd/noop-container
+  requires: [random]
   steps:
     - noop: "true"
